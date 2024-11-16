@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    display:flex ;
+    margin: 0 auto;
+    height: 100vh;
+    background: cadetblue;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #fff;
+}
+.container{
+    height: 400px;
+    width: 950px;
+    margin-top: 30px;
+}
+input{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    outline: none;
+    color: #fff;
+    transition: 0.5s;
+    padding: 0px 20px;
+    background: cadetblue;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+label{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#btn{
+    outline: none;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+     font-size: 18px;
+     margin-top: 30px;
+     transition: 0.5s;
+     border-radius: 10px;
+     border: solid #fff 2px;
+     font-family: 'Courier New', Courier, monospace;
+     background: cadetblue;
+} 
+input::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+#h1{
+    font-size: 34px;
+    color: #fff;
+    height: 50px;
+    padding: 5px;
+    transition: 0.5s;
+    border-radius: 10px;
+    border: solid 2px #fff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:hover{
+    border: solid 2px rgb(0, 255, 242);
+}
+#btn:hover{
+    border: solid 2px rgb(0, 255, 242);
+}
+#h1:hover{
+    border: solid 2px rgb(0, 255, 242);
+}
+
+@media (max-width: 980px){
+   .container{
+    width: 100%;
+   }
+   #h1{
+    padding: 12px;
+    font-size: 18px;
+   }
+   .section{
+    padding: 10px;
+   }
+   .div{
+    padding: 5px;
+    box-shadow: none;
+   }
+}
